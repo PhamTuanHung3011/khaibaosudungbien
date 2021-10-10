@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p id="demo"> Day la doan text</p>
+<script>
+    var demo = document.getElementById('demo');
+    demo.addEventListener("mouseover", Funcmouseovers );
+    demo.addEventListener("mouseout", Funmouseouts );
+
+    function Funcmouseovers(){
+        document.getElementById('demo').style.color="red";
+    }
+    function Funmouseouts(){
+        document.getElementById('demo').style.color="black";
+    }
+</script>
+
+
+
+</body>
+</html>
